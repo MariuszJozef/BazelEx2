@@ -1,0 +1,6 @@
+cc_library(
+    name = "library1",
+    hdrs = ["library1.hpp"],
+    srcs = ["library1.cpp"],
+    visibility = ["//main:__pkg__"]
+)
